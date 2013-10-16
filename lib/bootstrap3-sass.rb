@@ -1,4 +1,4 @@
-module Bootstrap
+module Bootstrap3
   class FrameworkNotFound < StandardError; end
 
   # Inspired by Kaminari
@@ -48,4 +48,4 @@ module Bootstrap
   end
 end
 
-Bootstrap.load!
+Bootstrap3.load!

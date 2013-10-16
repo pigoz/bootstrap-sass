@@ -1,14 +1,14 @@
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'bootstrap-sass/version'
+require 'bootstrap3-sass/version'
 
 Gem::Specification.new do |s|
-  s.name = "bootstrap-sass"
-  s.version = Bootstrap::VERSION
-  s.authors = ["Thomas McDonald"]
+  s.name = "bootstrap3-sass"
+  s.version = Bootstrap3::VERSION
+  s.authors = ["Thomas McDonald", "Stefano Pigozzi"]
   s.email = 'tom@conceptcoding.co.uk'
   s.summary = "Twitter's Bootstrap, converted to Sass and ready to drop into Rails or Compass"
-  s.homepage = "http://github.com/thomas-mcdonald/bootstrap-sass"
+  s.homepage = "http://github.com/pigoz/bootstrap3-sass"
   s.license = "Apache 2.0"
 
   s.add_development_dependency 'compass'
