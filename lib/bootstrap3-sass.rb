@@ -4,10 +4,10 @@ module Bootstrap3
   # Inspired by Kaminari
   def self.load!
     if compass?
-      require 'bootstrap-sass/compass_functions'
+      require 'bootstrap3-sass/compass_functions'
       register_compass_extension
     elsif asset_pipeline?
-      require 'bootstrap-sass/sass_functions'
+      require 'bootstrap3-sass/sass_functions'
     end
 
     if rails?
@@ -44,7 +44,7 @@ module Bootstrap3
   end
 
   def self.register_rails_engine
-    require 'bootstrap-sass/engine'
+    require 'bootstrap3-sass/engine'
   end
 end
 
